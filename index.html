@@ -1,0 +1,170 @@
+
+<!doctype html>
+<html>
+<head>
+
+	<script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5.css">
+
+<script  src="jquery-2.2.4.js"> </script>
+<script type="text/javascript" src="geolocation.js"></script>
+<script  src="jquery.mobile-1.4.5.js"> </script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:600,700" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="geolocation.css">
+
+
+
+<meta charset="utf-8">
+<title>APP</title>
+</head>
+
+<body>
+
+
+<div data-role="page" id="main" >
+
+		<div data-role="main" class="ui-content">
+			<div id="menu">
+	
+			<a href="#detalle1" id='ciudad1' class="ui-btn ciudad"> 				
+				<div id="nombreciudad">
+					
+				</div>
+				<div id="temperaturaciudad">
+				
+				</div>
+			</a>
+			
+
+			<a href="#buscador" id='ciudad2' class="ui-btn ciudad"> 	
+				<div id="añadir">
+					<img src="mas.png" width="30px" height="30px">
+				</div>
+				<div id="nombreciudad">
+					
+				</div>
+				<div id="temperaturaciudad">
+					
+				</div>
+
+			</a>
+
+
+			<a href="#buscador" id='ciudad3' class="ui-btn ciudad"> 	
+				<div id="añadir">
+					<img src="mas.png" width="30px" height="30px">
+				</div>
+				<div id="nombreciudad">
+					
+				</div>
+				<div id="temperaturaciudad">
+					
+				</div>
+
+			</a>
+
+			<a href="#buscador" id='ciudad4' class="ui-btn ciudad"> 	
+				<div id="añadir">
+					<img src="mas.png" width="30px" height="30px">
+				</div>
+				<div id="nombreciudad">
+					
+				</div>
+				<div id="temperaturaciudad">
+					
+				</div>
+
+			</a>
+
+			<a href="#buscador" id='ciudad5' class="ui-btn ciudad"> 	
+				<div id="añadir">
+					<img src="mas.png" width="30px" height="30px">
+				</div>
+				<div id="nombreciudad">
+					
+				</div>
+				<div id="temperaturaciudad">
+					
+				</div>
+
+			</a>
+
+			<a href="#buscador" id='ciudad6' class="ui-btn ciudad"> 	
+				<div id="añadir">
+					<img src="mas.png" width="30px" height="30px">
+				</div>
+				<div id="nombreciudad">
+					
+				</div>
+				<div id="temperaturaciudad">
+					
+				</div>
+
+			</a>
+			
+
+		</div>
+	</div>
+</div>
+
+<div data-role="page" id="detalle1">
+		<div data-role="main" class="ui-content">
+			<div id="detalle">
+				<div id="box1">
+					<div id="texto">
+					<p>Soleado</p>
+					<h1>MADRID</h1>
+					<h2>20º</h2>
+					<p>Sensación térmica 25º</p>
+					<h4>Por la tarde, llevate una chaqueta</h4>
+					</div>
+				</div>
+
+				<div id="box2">
+					<div id="texto">		
+					<h3>Próximos días</h3>
+					<h5>Lunes Martes Miércoles Jueves Viernes Sábado Domingo</h5>
+					</div>
+				</div>
+			
+
+				<div id="cerrar">
+				<a href="#main"><img src="cancelar.png" width="30px" height="30px"></a>
+				</div>
+				
+			</div>
+		</div>
+</div>
+
+
+
+<div data-role="page" id="buscador">
+		<div data-role="main" class="ui-content">
+			<form class="ui-filterable" id="lista">
+
+				<input  id="autocomplete-input" data-type="search" placeholder="¿Que ciudad quieres?">
+				</form>
+
+				<ul data-role="listview" id="autocomplete" data-inset="true" data-filter="true" data-input="#autocomplete-input">
+
+					<li><div id="click"><a href="#main"><img src="comprobar.png" width="20px" height="20px"></a></div></li>
+
+				</ul>
+						
+					<!--<li><div id="click"><a href="#main"><img src="comprobar.png" width="20px" height="20px"></a></div><h1>MADRID</h1><h2>20º</h2></li>
+					<li><div id="click"><a href="#main"><img src="comprobar.png" width="20px" height="20px"></a></div><h1>AARHUS</h1><h2>12º</h2></li>
+					-->		
+				
+
+
+		</div>
+
+</div>
+</body>
+</html>
+
