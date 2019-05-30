@@ -167,7 +167,8 @@ body {
 
 margin: 0;
 padding: 0;
-font-family: titillium web;
+font-family: Roboto;
+text-transform: none;
 
 }
 
@@ -182,13 +183,13 @@ font-family: titillium web;
 	padding: 0;
 	margin: 5px;
 	border: none;
-	width: 140px;
+	width: 300px;
 	height: 120px;
 	border-radius: 20px;
 	background: #E6A500 !important;
 }
 #nombreciudad{
-	font-family: titillium web;
+
 	font-size: 20px;
 	text-align: center;
 	color: #FFFFFF;
@@ -200,38 +201,28 @@ font-family: titillium web;
 }
 
 #temperaturaciudad{
-	font-family: titillium web;
+
 	font-size: 56px;
 	text-align: center;
 	color: #FFFFFF;
 	font-style: normal;
 	font-weight:700;
 	line-height:5%;	
-	margin-top: 18px;
+	margin-top: 30px;
 }
 
 #añadir{
-	background: #FFFFFF;
-	border: 4px solid #E5E5E5;
-	box-sizing: border-box;
-	border-radius: 20px;
-	justify-content: center;
+	display: flex;
 	align-items: center;
-	width: 140px;
-	height: 120px;
-	flex-direction: center;
-
-}
-#añadir img{
-	margin-top: 40px;
+	justify-content: center;
 }
 
 #box1{
 	position: absolute;
 	width: 335px;
-	height: 281px;
+	height: 400px;
 	left: 21px;
-	top: 53px;
+	top: 150px;
 
 	background: #E6A500;
 	border-radius: 20px;
@@ -243,21 +234,26 @@ font-family: titillium web;
 	font-style: normal;
 	font-weight: normal;
 	text-shadow: none;	
-	font-family: titillium web;
+
 	
 }
 
 #texto p{
-	color: black;
+	color: #363636;
 	text-shadow: none;
 	font-size: 16px;
 	line-height: 5%;
+
 }
 #texto h1{
 	color: white;
 	font-size: 48px;
-	line-height: 10%;
+	line-height: 20%;
+	text-align: left;
+	padding-top: 20px;
+
 }
+
 #texto h2{
 	color: white;
 	font-size: 72px;
@@ -266,23 +262,7 @@ font-family: titillium web;
 #texto h4{
 	color: white;
 	text-shadow: none;
-	
 	font-size: 20px;
-}
-
-#box2{
-
-	font-family: titillium web;
-	position: absolute;
-	width: 335px;
-	height: 218px;
-	left: 21px;
-	top: 348px;
-
-	background: #E7E7E7;
-	border-radius: 20px;
-
-
 }
 
 #texto h3{
@@ -293,7 +273,7 @@ font-family: titillium web;
 }
 
 #texto h5{
-	color: black;
+	color:#363636;
 	text-shadow: none;
 	font-size: 16px;
 	
@@ -311,7 +291,7 @@ top:600px;
 
 #lista li{
 display: inline-flex;
-font-family: titillium web;
+
 	
 margin-left: 20px;
 margin-top: 20px;
@@ -326,16 +306,17 @@ border-radius: 20px;
 }
 
 #click{
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
 	margin-left: 10px;
 }
 
 #lista h1{
 
-	font-size: 20px;
-	margin-left: 50px;
-	color: black;
+	font-size: 30px;
+	
+	color: #363636;
+	text-align: center;
 
 }
 
@@ -349,4 +330,9 @@ border-radius: 20px;
 }
 
 
+
+.huecobuscar{
+	width: 30px;
+	height: 30px;
+}
 
